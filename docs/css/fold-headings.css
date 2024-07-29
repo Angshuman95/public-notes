@@ -17,6 +17,7 @@ h6 {
   transition: transform 0.2s ease;
 }
 
+h1 .folding-icon,
 h2 .folding-icon,
 h3 .folding-icon,
 h4 .folding-icon,
