@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const mainContent = document.querySelector('.md-content');
   if (!mainContent) return;
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     heading.prepend(icon);
 
     heading.style.cursor = 'pointer';
-    heading.addEventListener('click', function() {
+    heading.addEventListener('click', function () {
       if (content.style.display === 'none') {
         content.style.display = 'block';
         icon.innerHTML = '&#9660;'; // down-pointing triangle
@@ -40,20 +40,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Add event listener to h1 to fold everything
+  // Add event listener to h1 to fold/unfold everything
   const h1Headings = mainContent.querySelectorAll('h1');
   h1Headings.forEach((h1) => {
     h1.style.cursor = 'pointer';
-    h1.addEventListener('click', function() {
+    h1.addEventListener('click', function () {
+      const isAnyContentVisible = Array.from(
+        mainContent.querySelectorAll('h2, h3, h4, h5, h6'),
+      ).some(
+        (heading) =>
+          heading.nextElementSibling &&
+          heading.nextElementSibling.style.display === 'block',
+      );
+      const newDisplayStyle = isAnyContentVisible ? 'none' : 'block';
+      const newIcon = isAnyContentVisible ? '&#9654;' : '&#9660;'; // right-pointing or down-pointing triangle
+
       for (let level = 2; level <= 6; level++) {
         const headings = mainContent.querySelectorAll(`h${level}`);
         headings.forEach((heading) => {
           const content = heading.nextElementSibling;
           if (content && content.style) {
-            content.style.display = 'none';
+            content.style.display = newDisplayStyle;
             const icon = heading.querySelector('.folding-icon');
             if (icon) {
-              icon.innerHTML = '&#9654;'; // right-pointing triangle
+              icon.innerHTML = newIcon;
             }
           }
         });
