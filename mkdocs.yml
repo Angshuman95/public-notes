@@ -1,6 +1,9 @@
 site_name: My Obsidian Notes
 theme:
   name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -20,7 +23,11 @@ theme:
         name: Switch to light
 markdown_extensions:
   - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+      pygments_style: "one-dark"
       anchor_linenums: true
+      line_spans: __span
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.inlinehilite
