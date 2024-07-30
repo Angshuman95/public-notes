@@ -42,3 +42,4 @@ tags:
 
 ### Sorting
 - [[Selection_Sort]]
+- [[Bubble_Sort]]
