@@ -178,9 +178,9 @@ int main() {
 ---
 ## Related Pages
 
-- [[Cpp_helper_snippets]]
+- 
 
 ---
 ## References
 
-1. 
+1. [[Cpp_helper_snippets]]

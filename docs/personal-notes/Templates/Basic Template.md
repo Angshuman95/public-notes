@@ -1,7 +1,7 @@
 ---
 title: "{{title}}"
 date: "{{date}}"
-time: "{{time}}" 
+time: "{{time}}"
 status: 
 aliases: 
 tags:
@@ -10,11 +10,11 @@ tags:
 
 
 ---
-### Related Pages
+## Related Pages
 
 - 
 
 ---
-### References
+## References
 
 1. 

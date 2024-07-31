@@ -185,9 +185,9 @@ if __name__ == "__main__":
 ---
 ## Related Pages
 
-- [[Cpp_helper_snippets]]
+- 
 
 ---
 ## References
 
-1. 
+1. [[Cpp_helper_snippets]]
