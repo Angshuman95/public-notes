@@ -169,4 +169,4 @@ int main() {
 ---
 ## References
 
-1. [[Cpp_helper_snippets]]]
+1. [[Cpp_helper_snippets]]

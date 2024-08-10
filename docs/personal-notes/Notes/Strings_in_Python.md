@@ -14,7 +14,7 @@ tags:
 
 - The name of class for strings is `str` . It's **NOT** string.
 
--  To create new strings from other types use
+- To create new strings from other types use
 
 ```python
 newStr = str(x)
