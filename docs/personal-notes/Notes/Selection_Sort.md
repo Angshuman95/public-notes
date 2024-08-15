@@ -1,11 +1,12 @@
 ---
-title: Selection_Sort
-date: 2024-07-29
-time: 14:02
-status: PROG
-aliases: 
+id: Selection_Sort
+aliases: []
 tags:
   - ds-algo/basics/sorting
+date: "2024-07-29"
+status: PROG
+time: 14:02
+title: Selection_Sort
 ---
 # Selection Sort
 

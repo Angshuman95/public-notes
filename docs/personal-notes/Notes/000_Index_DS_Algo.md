@@ -1,11 +1,12 @@
 ---
-title: Data Structures and Algorithms Index
-date: 2024-07-26
-time: 20:23
-status: PROG
-aliases: 
+id: 000_Index_DS_Algo
+aliases: []
 tags:
   - ds-algo/0-index
+date: "2024-07-26"
+status: PROG
+time: 20:23
+title: Data Structures and Algorithms Index
 ---
 # Data Structures and Algorithms Index
 

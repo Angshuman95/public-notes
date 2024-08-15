@@ -1,10 +1,11 @@
 ---
-title: cpp_basic_notes
-date: 2024-07-23
-time: 07:44
+id: cpp_basic_notes
+aliases: []
+tags: []
+date: "2024-07-23"
 status: PROG
-aliases:
-tags:
+time: 07:44
+title: cpp_basic_notes
 ---
 # CPP Notes for DSA
 

@@ -1,11 +1,12 @@
 ---
-title: Strings_in_Python
-date: 2024-07-26
-time: 21:19
-status: DONE
-aliases: 
+id: Strings_in_Python
+aliases: []
 tags:
   - ds-algo/lang-basic/py
+date: "2024-07-26"
+status: DONE
+time: 21:19
+title: Strings_in_Python
 ---
 # Strings in Python
 
